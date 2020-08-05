@@ -1,0 +1,129 @@
+// ================================================================================================================================
+
+@import "null.scss";
+@import "mixin.scss";
+@import "variables.scss";
+
+
+// ================================================================================================================================
+
+
+// ================================================================================================================================
+
+
+@font-face {
+   font-family: "Roboto-Bold";
+   src: url("../fonts/Roboto-Bold.ttf");
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "Roboto-Light";
+   src: url("../fonts/Roboto-Light.ttf");
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "Roboto-Medium";
+   src: url("../fonts/Roboto-Medium.ttf");
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "Roboto-Regular";
+   src: url("../fonts/Roboto-Regular.ttf");
+   font-style: normal;
+   font-weight: normal;
+}
+
+// ================================================================================================================================
+
+
+// ================================================================================================================================
+
+h1,
+p,
+span,
+a,
+button {
+   font-family: "Roboto-Regular", serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Roboto-Bold", serif;
+}
+
+body {
+   background: #010001;
+}
+
+
+.container {
+   max-width: 1230px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+// ================================================================================================================================
+
+
+// ================================================================================================================================
+// !HEADER
+
+.header {
+   padding: 53px 0px 0px 0px;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo-link {
+
+   &_img {}
+}
+
+.nav {
+
+   &_main {
+      display: flex;
+      align-items: center;
+   }
+
+   &_link {
+      margin: 0px 20px 0px 0px;
+
+      font-size: 12px;
+      line-height: 14px;
+      color: $colorText;
+   }
+}
+
+.secondary-nav {
+
+   &_main {
+      display: flex;
+      align-items: center;
+   }
+
+   &_link {
+      margin: 0px 20px 0px 0px;
+
+      font-size: 12px;
+      line-height: 14px;
+      color: $colorPlusText;
+   }
+}
+
+
+// !/HEADER
+// ================================================================================================================================
